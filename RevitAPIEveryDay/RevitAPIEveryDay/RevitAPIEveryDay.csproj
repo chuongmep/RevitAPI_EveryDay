@@ -58,6 +58,16 @@
     <Compile Include="Day03\Selection.cs" />
     <Compile Include="Day03\PickObjects.cs" />
     <Compile Include="Day03\PickObject.cs" />
+    <Compile Include="Day04\FilterElementCategories.cs" />
+    <Compile Include="Day04\FilterElements.cs" />
+    <Compile Include="Day04\EleLogicalOrFilter.cs" />
+    <Compile Include="Day04\PickObjContains.cs" />
+    <Compile Include="Day05\SetParameter.cs" />
+    <Compile Include="Day05\RvtTransaction.cs" />
+    <Compile Include="Day05\GetParameter.cs" />
+    <Compile Include="Day06\DeleteElement.cs" />
+    <Compile Include="Day06\RotateElement.cs" />
+    <Compile Include="Day06\MoveElement.cs" />
     <Compile Include="_Template.cs" />
     <Compile Include="Day02\RvtApplication.cs" />
     <Compile Include="Day01\HelloWord.cs" />
@@ -66,8 +76,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Day04\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

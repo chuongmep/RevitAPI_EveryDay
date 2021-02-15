@@ -9,12 +9,12 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Application = Autodesk.Revit.ApplicationServices.Application;
 
-namespace RevitAPIEveryDay
+namespace Day04
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class _Template : IExternalCommand
+    public class FilterElementCategories : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -23,6 +23,10 @@ namespace RevitAPIEveryDay
             Application app = uiapp.Application;
             Document doc = uidoc.Document;
 
+            ElementCategoryFilter filter = new ElementCategoryFilter(BuiltInCategory.OST_Walls);
+
+            IList<Element> elems = new FilteredElementCollector(doc).WherePasses(filter).WhereElementIsNotElementType().ToElements();
+            MessageBox.Show($"{elems.Count}");
             return Result.Succeeded;
         }
     }
