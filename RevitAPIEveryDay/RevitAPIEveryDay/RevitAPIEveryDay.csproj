@@ -53,6 +53,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Day02\RvtDocument.cs" />
+    <Compile Include="Day03\PickPoint.cs" />
+    <Compile Include="Day03\PickFace.cs" />
     <Compile Include="Day03\Selection.cs" />
     <Compile Include="Day03\PickObjects.cs" />
     <Compile Include="Day03\PickObject.cs" />
