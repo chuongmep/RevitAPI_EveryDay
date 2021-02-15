@@ -68,6 +68,8 @@
     <Compile Include="Day06\DeleteElement.cs" />
     <Compile Include="Day06\RotateElement.cs" />
     <Compile Include="Day06\MoveElement.cs" />
+    <Compile Include="Day07\GetBoundingBox.cs" />
+    <Compile Include="Day07\InterSectBoundingBox.cs" />
     <Compile Include="_Template.cs" />
     <Compile Include="Day02\RvtApplication.cs" />
     <Compile Include="Day01\HelloWord.cs" />

@@ -48,6 +48,11 @@ namespace Day05
             return Result.Succeeded;
         }
 
+        /// <summary>
+        /// Set Parameter Value
+        /// </summary>
+        /// <param name="e">element</param>
+        /// <param name="value">value</param>
         void SetParameter(Autodesk.Revit.DB.Element e, string value)
         {
             e.get_Parameter(BuiltInParameter.ALL_MODEL_INSTANCE_COMMENTS).Set(value);

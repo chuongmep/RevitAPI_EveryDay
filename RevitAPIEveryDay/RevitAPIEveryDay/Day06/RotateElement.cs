@@ -31,29 +31,35 @@ namespace Day06
             UIDocument uidoc = uiapp.ActiveUIDocument;
             Application app = uiapp.Application;
             Document doc = uidoc.Document;
-            Element element = doc.GetElement(uidoc.Selection.PickObject(ObjectType.Element));
 
-            using (Transaction tran = new Transaction(doc))
+            try
             {
-                tran.Start("Rotate");
-                if (element.Location is LocationPoint)
+                Element element = doc.GetElement(uidoc.Selection.PickObject(ObjectType.Element));
+                using (Transaction tran = new Transaction(doc))
                 {
-                    var lc = element.Location as LocationPoint;
-                    XYZ lcPoint = lc.Point;
-                    double angle = 45;
-                    Rotate(element, lcPoint, angle);
+                    tran.Start("Rotate");
+                    if (element.Location is LocationPoint)
+                    {
+                        var lc = element.Location as LocationPoint;
+                        XYZ lcPoint = lc.Point;
+                        double angle = 45;
+                        Rotate(element, lcPoint, angle);
+                    }
+                    if (element.Location is LocationCurve)
+                    {
+                        LocationCurve lc = element.Location as LocationCurve;
+                        XYZ lcPoint = lc.Curve.GetEndPoint(1);
+                        double angle = 45;
+                        Rotate(element, lcPoint, angle);
+                    }
+
+                    tran.Commit();
                 }
-
-                if (element.Location is LocationCurve)
-                {
-                    LocationCurve lc = element.Location as LocationCurve;
-                    XYZ lcPoint = lc.Curve.GetEndPoint(1);
-                    double angle = 45;
-                    Rotate(element, lcPoint, angle);
-
-                }
-
-                tran.Commit();
+            }
+            catch(Autodesk.Revit.Exceptions.OperationCanceledException){}
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
             }
             return Result.Succeeded;
         }

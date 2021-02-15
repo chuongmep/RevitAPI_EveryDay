@@ -30,14 +30,22 @@ namespace Day06
             UIDocument uidoc = uiapp.ActiveUIDocument;
             Application app = uiapp.Application;
             Document doc = uidoc.Document;
-            Element element = doc.GetElement(uidoc.Selection.PickObject(ObjectType.Element));
-            using (Transaction tran = new Transaction(doc))
+            try
             {
-                tran.Start("Move Element");
-                XYZ translation = new XYZ(10, 0, 0);
-                element.Location.Move(translation);
-                MessageBox.Show("Element Has Moved", "Information", MessageBoxButtons.OK);
-                tran.Commit();
+                Element element = doc.GetElement(uidoc.Selection.PickObject(ObjectType.Element));
+                using (Transaction tran = new Transaction(doc))
+                {
+                    tran.Start("Move Element");
+                    XYZ translation = new XYZ(10, 0, 0);
+                    element.Location.Move(translation);
+                    MessageBox.Show("Element Has Moved", "Information", MessageBoxButtons.OK);
+                    tran.Commit();
+                }
+            }
+            catch(Autodesk.Revit.Exceptions.OperationCanceledException){}
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
             }
 
             return Result.Succeeded;

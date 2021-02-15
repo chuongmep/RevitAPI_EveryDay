@@ -30,13 +30,21 @@ namespace Day06
             UIDocument uidoc = uiapp.ActiveUIDocument;
             Application app = uiapp.Application;
             Document doc = uidoc.Document;
-            Element element = doc.GetElement(uidoc.Selection.PickObject(ObjectType.Element));
-            using (Transaction tran = new Transaction(doc))
+            try
             {
-                tran.Start("Delete Element");
-                doc.Delete(element.Id);
-                MessageBox.Show("Element Deleted","Information",MessageBoxButtons.OK);
-                tran.Commit();
+                Element element = doc.GetElement(uidoc.Selection.PickObject(ObjectType.Element));
+                using (Transaction tran = new Transaction(doc))
+                {
+                    tran.Start("Delete Element");
+                    doc.Delete(element.Id);
+                    MessageBox.Show("Element Deleted","Information",MessageBoxButtons.OK);
+                    tran.Commit();
+                }
+            }
+            catch(Autodesk.Revit.Exceptions.OperationCanceledException){}
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
             }
 
             return Result.Succeeded;
