@@ -52,11 +52,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Day1.cs" />
+    <Compile Include="Day02\RvtDocument.cs" />
+    <Compile Include="Day03\Selection.cs" />
+    <Compile Include="Day03\PickObjects.cs" />
+    <Compile Include="Day03\PickObject.cs" />
+    <Compile Include="_Template.cs" />
+    <Compile Include="Day02\RvtApplication.cs" />
+    <Compile Include="Day01\HelloWord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Day04\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
