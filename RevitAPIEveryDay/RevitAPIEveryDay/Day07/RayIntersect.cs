@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,45 +8,27 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
+using Library;
 using Application = Autodesk.Revit.ApplicationServices.Application;
 
-namespace Day03
+namespace RevitAPIEveryDay
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class PickFace : IExternalCommand
+    public class RayIntersect : IExternalCommand
     {
-        /// <summary>
-        /// Return Count Of Face Element
-        /// </summary>
-        /// <param name="commandData"></param>
-        /// <param name="message"></param>
-        /// <param name="elements"></param>
-        /// <returns></returns>
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
-            #region Init
-
             UIApplication uiapp = commandData.Application;
             UIDocument uidoc = uiapp.ActiveUIDocument;
             Application app = uiapp.Application;
             Document doc = uidoc.Document;
+            Element element = doc.GetElement(uidoc.Selection.PickObject(ObjectType.Element));
+            List<string> Categories = new List<string>();
+            Categories.Add("Walls");
 
-            #endregion
-
-            try
-            {
-                IList<Reference> refs = uidoc.Selection.PickObjects(ObjectType.Face);
-                MessageBox.Show($"{refs.Count} Face");
-            }
-            catch (Autodesk.Revit.Exceptions.OperationCanceledException e)
-            {
-                MessageBox.Show($"You Has Press Esc\n{e}", "Warning", MessageBoxButtons.OK);
-                return Result.Cancelled;
-                //Pressed Esc
-            }
-
+            element.RayIntersect(Categories,new XYZ(0,0,1));
             return Result.Succeeded;
         }
     }

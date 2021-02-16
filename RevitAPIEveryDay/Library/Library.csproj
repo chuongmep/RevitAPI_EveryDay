@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{42C72DA9-5638-4C9B-947E-C5A75589B584}</ProjectGuid>
+    <ProjectGuid>{3BCE62D7-53BB-425A-9CDB-AF5D83DF6E3A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RevitAPIEveryDay</RootNamespace>
-    <AssemblyName>RevitAPIEveryDay</AssemblyName>
+    <RootNamespace>Library</RootNamespace>
+    <AssemblyName>Library</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -47,8 +47,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -57,42 +55,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Day02\RvtDocument.cs" />
-    <Compile Include="Day03\PickObjectsByCategories.cs" />
-    <Compile Include="Day03\PickPoint.cs" />
-    <Compile Include="Day03\PickFace.cs" />
-    <Compile Include="Day03\SelectElementInLinked.cs" />
-    <Compile Include="Day03\Selection.cs" />
-    <Compile Include="Day03\PickObjects.cs" />
-    <Compile Include="Day03\PickObject.cs" />
-    <Compile Include="Day04\ElementFilterLstCategories.cs" />
-    <Compile Include="Day04\FilterElementCategories.cs" />
-    <Compile Include="Day04\FilterElements.cs" />
-    <Compile Include="Day04\EleLogicalOrFilter.cs" />
-    <Compile Include="Day04\PickObjContains.cs" />
-    <Compile Include="Day05\SetParameter.cs" />
-    <Compile Include="Day05\RvtTransaction.cs" />
-    <Compile Include="Day05\GetParameter.cs" />
-    <Compile Include="Day06\DeleteElement.cs" />
-    <Compile Include="Day06\RotateElement.cs" />
-    <Compile Include="Day06\MoveElement.cs" />
-    <Compile Include="Day07\GetBoundingBox.cs" />
-    <Compile Include="Day07\InterSectBoundingBox.cs" />
-    <Compile Include="Day07\RayIntersect.cs" />
-    <Compile Include="Day07\CurveIntersection.cs" />
-    <Compile Include="_Template.cs" />
-    <Compile Include="Day02\RvtApplication.cs" />
-    <Compile Include="Day01\HelloWord.cs" />
+    <Compile Include="ElementUtils.cs" />
+    <Compile Include="MathUtils.cs" />
+    <Compile Include="PointUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Library\Library.csproj">
-      <Project>{3bce62d7-53bb-425a-9cdb-af5d83df6e3a}</Project>
-      <Name>Library</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
