@@ -11,7 +11,7 @@ using Autodesk.Revit.UI.Selection;
 using Library;
 using Application = Autodesk.Revit.ApplicationServices.Application;
 
-namespace RevitAPIEveryDay
+namespace Day07
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
