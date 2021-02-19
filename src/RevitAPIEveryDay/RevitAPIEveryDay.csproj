@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Day02\RvtDocument.cs" />
+    <Compile Include="Day03\PickElementsByRectangle.cs" />
     <Compile Include="Day03\PickObjectsByCategories.cs" />
     <Compile Include="Day03\PickPoint.cs" />
     <Compile Include="Day03\PickFace.cs" />
@@ -86,13 +87,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Library\Library.csproj">
       <Project>{3bce62d7-53bb-425a-9cdb-af5d83df6e3a}</Project>
       <Name>Library</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
