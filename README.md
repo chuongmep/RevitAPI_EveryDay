@@ -8,6 +8,7 @@ If you want complete full source, you need learn it every day.
 ### Day03: Access To Element In Revit Document
 #### [PickFace](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day03/PickFace.cs#L41)
 #### [PickObject](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day03/PickObject.cs#L41)
+#### [PickElementsByRectangle](https://github.com/chuongmep/RevitAPI_EveryDay/blob/0666cc3f6c88c7830713858f4f5f14465600c928/src/RevitAPIEveryDay/Day03/PickElementsByRectangle.cs#L24)
 #### [PickObjects](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day03/PickObjects.cs#L41)
 #### [PickObjectsByCategories](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day03/PickObjectsByCategories.cs#L42)
 #### [PickPoint](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day03/PickPoint.cs#L40-L55)
