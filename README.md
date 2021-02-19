@@ -1,4 +1,11 @@
 # FULL GUIDE REVIT API EVERYDAY FROM ZERO TO HERO
+![Revit API](https://img.shields.io/badge/Revit%20API-2021-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgray.svg)
+![.NET](https://img.shields.io/badge/.NET-4.8-blue.svg)
+<a href="https://twitter.com/intent/follow?screen_name=chuongmep">
+        <img src="https://img.shields.io/twitter/follow/chuongmep?style=social&logo=twitter"
+            alt="follow on Twitter"></a>
+            
 If you want complete full source, you need learn it every day.
 ### Day01: Get start with Revit API
 #### [HelloWord](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day01/HelloWord.cs#L19)
