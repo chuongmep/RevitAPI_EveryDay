@@ -60,6 +60,7 @@
     <Compile Include="Day02\RvtDocument.cs" />
     <Compile Include="Day03\PickElementsByRectangle.cs" />
     <Compile Include="Day03\PickObjectsByCategories.cs" />
+    <Compile Include="Day03\PickPointFix.cs" />
     <Compile Include="Day03\PickPoint.cs" />
     <Compile Include="Day03\PickFace.cs" />
     <Compile Include="Day03\SelectElementInLinked.cs" />
