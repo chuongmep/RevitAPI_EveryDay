@@ -20,7 +20,7 @@ If you want complete full source, you need learn it every day.
 #### [PickObjects](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day03/PickObjects.cs#L41)
 #### [PickObjectsByCategories](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day03/PickObjectsByCategories.cs#L42)
 #### [PickPoint](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day03/PickPoint.cs#L40-L55)
-#### [PickPoint](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4cada53d3ae3edd556dffc4562ed0f0063a2f129/src/RevitAPIEveryDay/Day03/PickPointFix.cs#L42-L51)
+#### [PickPoint Fix](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4cada53d3ae3edd556dffc4562ed0f0063a2f129/src/RevitAPIEveryDay/Day03/PickPointFix.cs#L42-L51)
 #### [SelectElementInLinked](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day03/SelectElementInLinked.cs#L26-L46)
 #### [Selection](https://github.com/chuongmep/RevitAPI_EveryDay/blob/2597a76603c97741a7d505b0a5ebd8b37ff04ba4/RevitAPIEveryDay/RevitAPIEveryDay/Day03/Selection.cs#L40-L59)
 
