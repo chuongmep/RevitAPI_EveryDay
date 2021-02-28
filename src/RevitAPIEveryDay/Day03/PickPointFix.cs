@@ -47,6 +47,7 @@ namespace Day03
                     XYZ point = uidoc.Selection.PickPoint(ObjectSnapTypes.Intersections);
                     doc.ActiveView.HideActiveWorkPlane();
                     sp.Dispose();
+                    doc.Delete(sp.Id);
                     MessageBox.Show(point.ToString());
                     tran.Commit();
                 }

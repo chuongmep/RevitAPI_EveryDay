@@ -8,6 +8,9 @@
             alt="follow on Twitter"></a>
             
 If you want complete full source, you need learn it every day.
+- Before Start you need skowledge **C#** Basic To Learn it : <a href="https://www.w3schools.com/cs/">w3schools</a> 
+
+- Algorithms : <a href="https://github.com/aalhour/C-Sharp-Algorithms">https://github.com/aalhour/C-Sharp-Algorithms</a> 
 ### Day01: Get start with Revit API
 #### [HelloWord](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day01/HelloWord.cs#L19)
 ### Day02: Introduce Interface And Interactive with Application,Document,Uidocument, UiApplication,Common
@@ -46,6 +49,58 @@ If you want complete full source, you need learn it every day.
 #### [CurveIntersection](https://github.com/chuongmep/RevitAPI_EveryDay/blob/2fe1007b2f81f5460f1c345553a2bc7b9086c1a1/RevitAPIEveryDay/RevitAPIEveryDay/Day07/CurveIntersection.cs#L36-L57)
 #### [InterSectBoundingBox](https://github.com/chuongmep/RevitAPI_EveryDay/blob/2fe1007b2f81f5460f1c345553a2bc7b9086c1a1/RevitAPIEveryDay/RevitAPIEveryDay/Day07/InterSectBoundingBox.cs#L36-L54)
 #### [RayIntersect](https://github.com/chuongmep/RevitAPI_EveryDay/blob/2fe1007b2f81f5460f1c345553a2bc7b9086c1a1/RevitAPIEveryDay/RevitAPIEveryDay/Day07/RayIntersect.cs#L31)
+
+### Day 08: Focus To Geometry
+#### Points
+#### Vector
+
+#### UV
+
+#### Curve
+
+#### Line
+
+#### Plane
+#### Edge
+
+#### Face
+
+#### Soilds
+### Day 09: Focus Create Sample Element
+
+#### Create Sheet Sapmle
+#### Create Sheet From Excel
+#### Create View
+#### Create Floor
+#### Create Column
+#### Create Schedule
+#### Create Dimmentions
+#### Create Wall
+#### Create Line
+#### Create Curve
+#### Create ModelCurve
+#### Create Model
+#### Create Workset
+
+#### Create Parameter
+
+#### Create Share Parameter
+#### Create Share Parameter Inside Family
+
+
+### Day 10: Focus Revit Event
+
+#### ExternalEventHandler  
+#### Event Document
+#### Event Application
+#### Event Warning
+#### Event Dialog
+
+### Advanced
+
+- Resolve Warning
+- Tool Develop
+- Resolve Error
 
 ..._Updating_
 ## Library
