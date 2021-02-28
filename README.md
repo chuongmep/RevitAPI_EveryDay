@@ -66,6 +66,7 @@ https://github.com/chuongmep/RevitAPI-Nuget
 #### [RayIntersect](https://github.com/chuongmep/RevitAPI_EveryDay/blob/2fe1007b2f81f5460f1c345553a2bc7b9086c1a1/RevitAPIEveryDay/RevitAPIEveryDay/Day07/RayIntersect.cs#L31)
 
 ### Day 08: Focus To Geometry
+#### Set Template Standard
 #### Points
 
 #### Vector
