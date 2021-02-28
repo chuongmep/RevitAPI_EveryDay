@@ -13,6 +13,7 @@ If you want complete full source, you need learn it every day.
 - Algorithms : <a href="https://github.com/aalhour/C-Sharp-Algorithms">https://github.com/aalhour/C-Sharp-Algorithms</a>
 
 ### Get Start
+
 1. Clone Project :
 
 ```
@@ -112,6 +113,38 @@ https://github.com/chuongmep/RevitAPI-Nuget
 #### Event Warning
 #### Event Dialog
 
+### Day 11: Revit Ribbon
+
+#### Buttons
+#### Tab
+#### Panel
+#### StackItem
+#### PulldownButton
+#### Combobox
+#### TextBox
+#### Checkbox
+
+### Day 12: Windows Forms UI
+
+#### Design
+#### Event
+#### Binding Data
+#### Get Set
+
+Example 1: <a href="https://github.com/chuongmep/SetPrameterWinFrom">SetPrameterWinFrom</a> 
+
+### Day 13: WPF(Windows Presentation Foundation) UI
+
+#### Xaml Design
+#### Event
+#### MVVM
+#### Binding Data
+#### Theard
+#### Properties
+
+Example 1 : <a href="https://github.com/chuongmep/RevitElementBipChecker">RevitElementBipChecker</a>
+
+### Day 13:  Collaborate
 ### Advanced
 
 - Resolve Warning
