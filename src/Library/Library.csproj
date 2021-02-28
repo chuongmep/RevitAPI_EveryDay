@@ -36,14 +36,23 @@
   </ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AdWindows, Version=2015.11.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ModPlus.Revit.API.2017.1.0.0\lib\AdWindows.dll</HintPath>
+    <Reference Include="AdWindows, Version=2016.11.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.0\lib\net46\AdWindows.dll</HintPath>
     </Reference>
-    <Reference Include="RevitAPI, Version=17.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ModPlus.Revit.API.2017.1.0.0\lib\RevitAPI.dll</HintPath>
+    <Reference Include="RevitAPI, Version=18.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.0\lib\net46\RevitAPI.dll</HintPath>
     </Reference>
-    <Reference Include="RevitAPIUI, Version=17.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ModPlus.Revit.API.2017.1.0.0\lib\RevitAPIUI.dll</HintPath>
+    <Reference Include="RevitAPIIFC, Version=18.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.0\lib\net46\RevitAPIIFC.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIMacros, Version=18.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.0\lib\net46\RevitAPIMacros.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUI, Version=18.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.0\lib\net46\RevitAPIUI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUIMacros, Version=18.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.0\lib\net46\RevitAPIUIMacros.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

@@ -1,4 +1,4 @@
-# FULL GUIDE REVIT API EVERYDAY FROM ZERO TO HERO
+# FULL GUIDE REVIT API EVERYDAY FROM ZERO TO HERO C#
 ![Revit API](https://img.shields.io/badge/Revit%20API-2021-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgray.svg)
 ![.NET](https://img.shields.io/badge/.NET-4.8-blue.svg)
@@ -8,9 +8,23 @@
             alt="follow on Twitter"></a>
             
 If you want complete full source, you need learn it every day.
-- Before Start you need skowledge **C#** Basic To Learn it : <a href="https://www.w3schools.com/cs/">w3schools</a> 
+- Before start you need skowledge C# Basic To Learn it : <a href="https://www.w3schools.com/cs/">w3schools</a> 
 
-- Algorithms : <a href="https://github.com/aalhour/C-Sharp-Algorithms">https://github.com/aalhour/C-Sharp-Algorithms</a> 
+- Algorithms : <a href="https://github.com/aalhour/C-Sharp-Algorithms">https://github.com/aalhour/C-Sharp-Algorithms</a>
+
+### Get Start
+1. Clone Project :
+
+```
+git clone https://github.com/chuongmep/RevitAPI_EveryDay.git
+
+```
+
+2. Restore nuget :
+
+```
+https://github.com/chuongmep/RevitAPI-Nuget
+```
 ### Day01: Get start with Revit API
 #### [HelloWord](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day01/HelloWord.cs#L19)
 ### Day02: Introduce Interface And Interactive with Application,Document,Uidocument, UiApplication,Common
@@ -52,6 +66,7 @@ If you want complete full source, you need learn it every day.
 
 ### Day 08: Focus To Geometry
 #### Points
+
 #### Vector
 
 #### UV
@@ -64,6 +79,7 @@ If you want complete full source, you need learn it every day.
 #### Edge
 
 #### Face
+#### Surface
 
 #### Soilds
 ### Day 09: Focus Create Sample Element
