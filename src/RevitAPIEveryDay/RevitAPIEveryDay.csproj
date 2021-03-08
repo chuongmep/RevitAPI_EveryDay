@@ -82,6 +82,9 @@
     <Compile Include="Day07\InterSectBoundingBox.cs" />
     <Compile Include="Day07\RayIntersect.cs" />
     <Compile Include="Day07\CurveIntersection.cs" />
+    <Compile Include="Day08\ChangeTemplate.cs" />
+    <Compile Include="Day08\Points.cs" />
+    <Compile Include="Day08\Vector.cs" />
     <Compile Include="_Template.cs" />
     <Compile Include="Day02\RvtApplication.cs" />
     <Compile Include="Day01\HelloWord.cs" />
@@ -96,5 +99,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
