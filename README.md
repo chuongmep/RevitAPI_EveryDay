@@ -58,8 +58,8 @@ https://github.com/chuongmep/RevitAPI-Nuget
 #### [DeleteElement](https://github.com/chuongmep/RevitAPI_EveryDay/blob/2fe1007b2f81f5460f1c345553a2bc7b9086c1a1/RevitAPIEveryDay/RevitAPIEveryDay/Day06/DeleteElement.cs#L35-L43)
 #### [MoveElement](https://github.com/chuongmep/RevitAPI_EveryDay/blob/2fe1007b2f81f5460f1c345553a2bc7b9086c1a1/RevitAPIEveryDay/RevitAPIEveryDay/Day06/MoveElement.cs#L35-L42)
 #### [RotateElement](https://github.com/chuongmep/RevitAPI_EveryDay/blob/2fe1007b2f81f5460f1c345553a2bc7b9086c1a1/RevitAPIEveryDay/RevitAPIEveryDay/Day06/RotateElement.cs#L37-L53)
-#### [Show Element](*)
-#### [Show Element In Linked](*)
+#### [Show Element](https://github.com/chuongmep/RevitAPI_EveryDay/blob/241d2f021c1381eed71d8a80c3deea5bb09ec47b/src/RevitAPIEveryDay/Day06/ShowElement.cs#L24)
+#### [Show Element In Linked](https://github.com/chuongmep/RevitAPI_EveryDay/blob/241d2f021c1381eed71d8a80c3deea5bb09ec47b/src/RevitAPIEveryDay/Day06/ShowElementInLink.cs#L40)
 
 ### Day07: Focus To Intersect
 #### [GetBoundingBox](https://github.com/chuongmep/RevitAPI_EveryDay/blob/2fe1007b2f81f5460f1c345553a2bc7b9086c1a1/RevitAPIEveryDay/RevitAPIEveryDay/Day07/GetBoundingBox.cs#L32)
