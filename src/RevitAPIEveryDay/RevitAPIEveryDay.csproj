@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RevitAPIEveryDay</RootNamespace>
     <AssemblyName>RevitAPIEveryDay</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -78,6 +79,8 @@
     <Compile Include="Day06\DeleteElement.cs" />
     <Compile Include="Day06\RotateElement.cs" />
     <Compile Include="Day06\MoveElement.cs" />
+    <Compile Include="Day06\ShowElement.cs" />
+    <Compile Include="Day06\ShowElementInLink.cs" />
     <Compile Include="Day07\GetBoundingBox.cs" />
     <Compile Include="Day07\InterSectBoundingBox.cs" />
     <Compile Include="Day07\RayIntersect.cs" />
