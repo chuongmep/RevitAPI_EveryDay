@@ -16,7 +16,7 @@ namespace RevitAPIEveryDay.Day08
     {
         public override void Action()
         {
-            MessageBox.Show("Im here");
+            MessageBox.Show(Doc.Title);
         }
     }
 }
