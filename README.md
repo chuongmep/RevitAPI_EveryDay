@@ -72,8 +72,22 @@ https://github.com/chuongmep/RevitAPI-Nuget
 #### [Set Template Standard](https://github.com/chuongmep/RevitAPI_EveryDay/blob/62bda18152d917c8deceb27a89489abbed77bc87/src/RevitAPIEveryDay/Day08/ChangeTemplate.cs#L19)
 
 #### Points
+##### XYZ | X | Y | Z
+##### Add
+##### Subtract
+##### Multiply
+##### Divide
 
 #### Vector
+
+##### Cross Product
+##### DotProduct
+##### TripleProduct
+##### Negate
+##### Normalize
+##### IsAlmostEqualTo
+##### DistanceTo
+##### Length
 
 #### UV
 
@@ -105,6 +119,7 @@ https://github.com/chuongmep/RevitAPI-Nuget
 #### Surface
 
 #### Soilds
+
 ### Day 09: Focus Create Sample Element
 
 #### Create Sheet Sapmle
@@ -129,7 +144,8 @@ https://github.com/chuongmep/RevitAPI-Nuget
 
 ### Day 10: Focus Revit Event
 
-#### ExternalEventHandler  
+#### ExternalEventHandler
+#### IUpdate
 #### Event Document
 #### Event Application
 #### Event Warning
