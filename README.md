@@ -79,12 +79,29 @@ https://github.com/chuongmep/RevitAPI-Nuget
 
 #### Curve
 
+##### Bounded line – Line
+##### Unbound line – Line
+##### Arc – Arc
+##### Circle – Arc
+##### Elliptical arc – Ellipse
+##### Ellipse – Ellipse
+##### NURBS – NurbSpline
+##### Hermite – HermiteSpline  
+
 #### Line
 
 #### Plane
 #### Edge
 
 #### Face
+
+##### Plane – PlanarFace
+##### Cylinder – CylindricalFace
+##### Cone – ConicalFace
+##### Revolved face – RevolvedFace
+##### Ruled surface – RuledFace
+##### Hermite face – HermiteFace
+
 #### Surface
 
 #### Soilds
