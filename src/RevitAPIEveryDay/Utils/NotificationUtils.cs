@@ -16,9 +16,9 @@ namespace Library
 {
     public static class NotificationUtils
     {
-        public static void ShowMessageBox(this string str)
+        public static void ShowMessageBox(this string str,string title="Test")
         {
-            MessageBox.Show(str);
+            MessageBox.Show(str,title);
         }
         public static void ShowMessageBox(this List<string> str,string title="Test")
         {
