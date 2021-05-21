@@ -74,6 +74,7 @@
     <Reference Include="UIFramework, Version=21.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <HintPath>..\packages\Chuongmep.RevitAPI.1.0.1\lib\net48\UIFramework.dll</HintPath>
     </Reference>
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Day02\RvtDocument.cs" />
@@ -104,17 +105,17 @@
     <Compile Include="Day07\RayIntersect.cs" />
     <Compile Include="Day07\CurveIntersection.cs" />
     <Compile Include="Day08\ChangeTemplate.cs" />
+    <Compile Include="Day08\LearnVector.cs" />
     <Compile Include="Day08\LearnXYZ.cs" />
+    <Compile Include="Utils\ElementUtils.cs" />
+    <Compile Include="Utils\MathUtils.cs" />
+    <Compile Include="Utils\NotificationUtils.cs" />
+    <Compile Include="Utils\PointUtils.cs" />
+    <Compile Include="Utils\RevitCommand.cs" />
     <Compile Include="_Template.cs" />
     <Compile Include="Day02\RvtApplication.cs" />
     <Compile Include="Day01\HelloWord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Library\Library.csproj">
-      <Project>{3bce62d7-53bb-425a-9cdb-af5d83df6e3a}</Project>
-      <Name>Library</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

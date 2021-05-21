@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.1321
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPIEveryDay", "RevitAPIEveryDay\RevitAPIEveryDay.csproj", "{42C72DA9-5638-4C9B-947E-C5A75589B584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{3BCE62D7-53BB-425A-9CDB-AF5D83DF6E3A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitUnitTest", "RevitUnitTest\RevitUnitTest.csproj", "{92CC5918-A0C3-4D08-9D52-6FB7CDEA4A94}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{42C72DA9-5638-4C9B-947E-C5A75589B584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42C72DA9-5638-4C9B-947E-C5A75589B584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42C72DA9-5638-4C9B-947E-C5A75589B584}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3BCE62D7-53BB-425A-9CDB-AF5D83DF6E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BCE62D7-53BB-425A-9CDB-AF5D83DF6E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BCE62D7-53BB-425A-9CDB-AF5D83DF6E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BCE62D7-53BB-425A-9CDB-AF5D83DF6E3A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{92CC5918-A0C3-4D08-9D52-6FB7CDEA4A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{92CC5918-A0C3-4D08-9D52-6FB7CDEA4A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92CC5918-A0C3-4D08-9D52-6FB7CDEA4A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
