@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using Library;
 
-namespace RevitAPIEveryDay.Day06
+namespace LearnAPI.Day06
 {
     [Transaction(TransactionMode.Manual)]
     class ShowElementInLink : RevitCommand

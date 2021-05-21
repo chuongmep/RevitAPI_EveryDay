@@ -7,9 +7,9 @@
     <ProjectGuid>{42C72DA9-5638-4C9B-947E-C5A75589B584}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RevitAPIEveryDay</RootNamespace>
-    <AssemblyName>RevitAPIEveryDay</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>LearnAPI</RootNamespace>
+    <AssemblyName>LearnAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -37,25 +37,43 @@
   </ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AdWindows, Version=2015.11.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ModPlus.Revit.API.2017.1.0.0\lib\AdWindows.dll</HintPath>
+    <Reference Include="AdWindows, Version=3.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.1\lib\net48\AdWindows.dll</HintPath>
     </Reference>
-    <Reference Include="RevitAPI, Version=17.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ModPlus.Revit.API.2017.1.0.0\lib\RevitAPI.dll</HintPath>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RevitAddInUtility, Version=21.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.1\lib\net48\RevitAddInUtility.dll</HintPath>
     </Reference>
-    <Reference Include="RevitAPIUI, Version=17.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ModPlus.Revit.API.2017.1.0.0\lib\RevitAPIUI.dll</HintPath>
+    <Reference Include="RevitAPI, Version=21.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.1\lib\net48\RevitAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIIFC, Version=21.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.1\lib\net48\RevitAPIIFC.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIMacros, Version=21.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.1\lib\net48\RevitAPIMacros.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUI, Version=21.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.1\lib\net48\RevitAPIUI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUIMacros, Version=21.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.1\lib\net48\RevitAPIUIMacros.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="UIFramework, Version=21.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Chuongmep.RevitAPI.1.0.1\lib\net48\UIFramework.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Day02\RvtDocument.cs" />
@@ -86,8 +104,7 @@
     <Compile Include="Day07\RayIntersect.cs" />
     <Compile Include="Day07\CurveIntersection.cs" />
     <Compile Include="Day08\ChangeTemplate.cs" />
-    <Compile Include="Day08\Points.cs" />
-    <Compile Include="Day08\Vector.cs" />
+    <Compile Include="Day08\LearnXYZ.cs" />
     <Compile Include="_Template.cs" />
     <Compile Include="Day02\RvtApplication.cs" />
     <Compile Include="Day01\HelloWord.cs" />

@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RevitAPIEveryDay")]
+[assembly: AssemblyTitle("RevitAPI")]
 [assembly: AssemblyDescription("Full Guide Step By Step Revit API EveryDay")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("chuongmep.com")]
-[assembly: AssemblyProduct("RevitAPIEveryDay")]
+[assembly: AssemblyProduct("RevitAPI")]
 [assembly: AssemblyCopyright("Copyright Chuongmep©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -6,7 +6,7 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Application = Autodesk.Revit.ApplicationServices.Application;
 
-namespace Day02
+namespace LearnAPI.Day02
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
