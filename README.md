@@ -72,21 +72,21 @@ https://github.com/chuongmep/RevitAPI-Nuget
 #### [Set Template Standard](https://github.com/chuongmep/RevitAPI_EveryDay/blob/62bda18152d917c8deceb27a89489abbed77bc87/src/RevitAPIEveryDay/Day08/ChangeTemplate.cs#L19)
 
 #### Points
-##### XYZ | X | Y | Z
-##### Add
-##### Subtract
-##### Multiply
-##### Divide
+##### [XYZ | X | Y | Z](https://github.com/chuongmep/RevitAPI_EveryDay/blob/6b4e63295dc9cb9a4c374c2b5d825b9725e60a13/src/RevitAPIEveryDay/Day08/LearnXYZ.cs#L16)
+##### [Add](https://github.com/chuongmep/RevitAPI_EveryDay/blob/6b4e63295dc9cb9a4c374c2b5d825b9725e60a13/src/RevitAPIEveryDay/Day08/LearnXYZ.cs#L25)
+##### [Subtract](https://github.com/chuongmep/RevitAPI_EveryDay/blob/6b4e63295dc9cb9a4c374c2b5d825b9725e60a13/src/RevitAPIEveryDay/Day08/LearnXYZ.cs#L28)
+##### [Multiply](https://github.com/chuongmep/RevitAPI_EveryDay/blob/6b4e63295dc9cb9a4c374c2b5d825b9725e60a13/src/RevitAPIEveryDay/Day08/LearnXYZ.cs#L31)
+##### [Divide](https://github.com/chuongmep/RevitAPI_EveryDay/blob/6b4e63295dc9cb9a4c374c2b5d825b9725e60a13/src/RevitAPIEveryDay/Day08/LearnXYZ.cs#L34)
 
 #### Vector
 
-##### Cross Product
-##### DotProduct
-##### TripleProduct
+##### [Cross Product](https://github.com/chuongmep/RevitAPI_EveryDay/blob/6b4e63295dc9cb9a4c374c2b5d825b9725e60a13/src/RevitAPIEveryDay/Day08/LearnVector.cs#L30)
+##### [DotProduct](https://github.com/chuongmep/RevitAPI_EveryDay/blob/6b4e63295dc9cb9a4c374c2b5d825b9725e60a13/src/RevitAPIEveryDay/Day08/LearnVector.cs#L24)
+##### [TripleProduct](https://github.com/chuongmep/RevitAPI_EveryDay/blob/6b4e63295dc9cb9a4c374c2b5d825b9725e60a13/src/RevitAPIEveryDay/Day08/LearnVector.cs#L39)
 ##### Negate
-##### Normalize
+##### [Normalize](https://github.com/chuongmep/RevitAPI_EveryDay/blob/6b4e63295dc9cb9a4c374c2b5d825b9725e60a13/src/RevitAPIEveryDay/Day08/LearnXYZ.cs#L41)
 ##### IsAlmostEqualTo
-##### DistanceTo
+##### [DistanceTo](https://github.com/chuongmep/RevitAPI_EveryDay/blob/6b4e63295dc9cb9a4c374c2b5d825b9725e60a13/src/RevitAPIEveryDay/Day08/DistanceAToB.cs#L23)
 ##### Length
 
 #### UV
