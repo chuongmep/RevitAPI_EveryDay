@@ -106,6 +106,7 @@
     <Compile Include="Day07\CurveIntersection.cs" />
     <Compile Include="Day08\ChangeTemplate.cs" />
     <Compile Include="Day08\DistanceAToB.cs" />
+    <Compile Include="Day08\LearnUV.cs" />
     <Compile Include="Day08\LearnVector.cs" />
     <Compile Include="Day08\LearnXYZ.cs" />
     <Compile Include="Utils\ElementUtils.cs" />

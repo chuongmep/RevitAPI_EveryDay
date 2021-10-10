@@ -44,6 +44,11 @@ namespace LearnAPI.Day08
             DotProduct(u, v).ShowMessageBox();
             //Cross Product
             CrossProduct(u, v).ShowMessageBox();
+
+            //negate [0,0,1] convert to [0,0,-1] same with reverse
+            
+            XYZ negate = v.Negate();
+            negate.ToString().ShowMessageBox("negate");
         }
 
         double DotProduct(XYZ u, XYZ v)

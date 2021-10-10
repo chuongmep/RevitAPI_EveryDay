@@ -41,6 +41,7 @@ https://github.com/chuongmep/RevitAPI-Nuget
 #### [PickPoint Fix](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4cada53d3ae3edd556dffc4562ed0f0063a2f129/src/RevitAPIEveryDay/Day03/PickPointFix.cs#L42-L51)
 #### [SelectElementInLinked](https://github.com/chuongmep/RevitAPI_EveryDay/blob/4c9df6dc642822015026118ccd83e04761177dcc/RevitAPIEveryDay/RevitAPIEveryDay/Day03/SelectElementInLinked.cs#L26-L46)
 #### [Selection](https://github.com/chuongmep/RevitAPI_EveryDay/blob/2597a76603c97741a7d505b0a5ebd8b37ff04ba4/RevitAPIEveryDay/RevitAPIEveryDay/Day03/Selection.cs#L40-L59)
+#### ~~Get Selected In Linked Element~~
 
 #### Day04: Focus to Logic Filter Element
 #### [EleLogicalOrFilter](https://github.com/chuongmep/RevitAPI_EveryDay/blob/2597a76603c97741a7d505b0a5ebd8b37ff04ba4/RevitAPIEveryDay/RevitAPIEveryDay/Day04/EleLogicalOrFilter.cs#L26-L31)
